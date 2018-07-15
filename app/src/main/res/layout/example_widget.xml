@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:layout_margin="8dp"
+    android:background="@color/bg_grey"
+    android:weightSum="5">
+
+    <ImageButton
+        android:id="@+id/btn_minus_air"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@color/bg_grey"
+        android:src="@drawable/ic_chevron_arrow_down"/>
+
+    <Button
+        android:id="@+id/btn_power_air"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/bg_grey"
+        android:text="2"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/btn_plus_air"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/bg_grey"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_chevron_arrow_up"/>
+
+    <ImageButton
+        android:id="@+id/btn_alert"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@color/bg_grey"
+        android:tint="#FFFFFF"
+        android:src="@android:drawable/ic_dialog_alert"/>
+
+    <ImageButton
+        android:id="@+id/btn_config"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@color/bg_grey"
+        android:src="@drawable/ic_camera_settings_cogwheel"/>
+
+</LinearLayout>
